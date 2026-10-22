@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+node_modules/
+web/dist/
+
+# Python environment & secrets
+.env
+.env.*
+!.env.example
+
+# Model caches, binaries and downloads
+models/
+checkpoints/
+huggingface/
+.cache/
+*.bin
+*.gguf
+
+# Generated project artifacts
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.aac
+*.ogg
+*.zip
+*.tar
+*.gz
+android/models/
+transcripts/
+data/output/
+output/
+tmp/
+temp/
+
+# Android build outputs
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
